@@ -13,70 +13,69 @@
       <span>Product Landing Page (Stanley&Steven)</span>
       <nav id="nav-bar">
         <ul>
-          <li class="nav-link"><a href="#product-1">Product-1</a></li>
-          <li class="nav-link"><a href="#product-2">Product-2</a></li>
-          <li class="nav-link"><a href="#product-3">Product-3</a></li>
+          <li><a class="nav-link" href="#product-1">Product-1</a></li>
+          <li><a class="nav-link" href="#product-2">Product-2</a></li>
+          <li><a class="nav-link" href="#product-3">Product-3</a></li>
         </ul>
       </nav>
     </div>
 
-    <video id="video" max-width="100%" height="auto" controls>
-      <source src="movie.mp4" type="video/mp4">
-      <source src="movie.ogg" type="video/ogg">
-      Your browser does not support the video tag.
-    </video>
+    <div id="main">
+      <video id="video" controls>
+        <source src="https://learn.adafruit.com/3d-printed-wearable-video-goggles" type="video/mp4">
+        <source src="https://www.youtube.com/watch?v=T0taTtOgqd8" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
 
-    <div class="products-nav">
-      <div class="card" id="product-1">
-        <img src="https://m.media-amazon.com/images/I/41RNYDoEilS._SS400_.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Product-1 Name</h5>
-          <p class="card-text">
-            To begin, it helps to know what you’re looking at.
-            A 3D image is one that has two different perspectives of the same image superimposed on each other.
-            This is what is known as an anaglyphic image.
-            By using 3D anaglyphic glasses, each eye filters chromatically opposite colors (typically red and cyan) to create a 3D eye-popping picture.
-            That’s why 3D glasses have two different-colored lenses – neat, right?
-          </p>
+      <div class="products-nav">
+        <div class="card" id="product-1">
+          <img src="https://www.pngkey.com/png/full/423-4236119_hp-3d-active-shutter-glasses-shutter-3d-glasses.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Product-1 Name</h5>
+            <p class="card-text">
+              To begin, it helps to know what you’re looking at.
+              A 3D image is one that has two different perspectives of the same image superimposed on each other.
+              This is what is known as an anaglyphic image.
+              By using 3D anaglyphic glasses, each eye filters chromatically opposite colors (typically red and cyan) to create a 3D eye-popping picture.
+              That’s why 3D glasses have two different-colored lenses – neat, right?
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product-2">
+          <img src="https://www.pngkey.com/png/full/423-4236119_hp-3d-active-shutter-glasses-shutter-3d-glasses.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Product-2 Name</h5>
+            <p class="card-text">
+              To begin, it helps to know what you’re looking at.
+              A 3D image is one that has two different perspectives of the same image superimposed on each other.
+              This is what is known as an anaglyphic image.
+              By using 3D anaglyphic glasses, each eye filters chromatically opposite colors (typically red and cyan) to create a 3D eye-popping picture.
+              That’s why 3D glasses have two different-colored lenses – neat, right?
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product-3">
+          <img src="https://www.pngkey.com/png/full/423-4236119_hp-3d-active-shutter-glasses-shutter-3d-glasses.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Product-3 Name</h5>
+            <p class="card-text">
+              To begin, it helps to know what you’re looking at.
+              A 3D image is one that has two different perspectives of the same image superimposed on each other.
+              This is what is known as an anaglyphic image.
+              By using 3D anaglyphic glasses, each eye filters chromatically opposite colors (typically red and cyan) to create a 3D eye-popping picture.
+              That’s why 3D glasses have two different-colored lenses – neat, right?
+            </p>
+          </div>
         </div>
       </div>
-      <div class="card" id="product-2">
-        <img src="https://m.media-amazon.com/images/I/41RNYDoEilS._SS400_.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Product-2 Name</h5>
-          <p class="card-text">
-            To begin, it helps to know what you’re looking at.
-            A 3D image is one that has two different perspectives of the same image superimposed on each other.
-            This is what is known as an anaglyphic image.
-            By using 3D anaglyphic glasses, each eye filters chromatically opposite colors (typically red and cyan) to create a 3D eye-popping picture.
-            That’s why 3D glasses have two different-colored lenses – neat, right?
-          </p>
-        </div>
-      </div>
-      <div class="card" id="product-3">
-        <img src="https://m.media-amazon.com/images/I/41RNYDoEilS._SS400_.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Product-3 Name</h5>
-          <p class="card-text">
-            To begin, it helps to know what you’re looking at.
-            A 3D image is one that has two different perspectives of the same image superimposed on each other.
-            This is what is known as an anaglyphic image.
-            By using 3D anaglyphic glasses, each eye filters chromatically opposite colors (typically red and cyan) to create a 3D eye-popping picture.
-            That’s why 3D glasses have two different-colored lenses – neat, right?
-          </p>
-        </div>
-      </div>
+
+      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" name="email" class="form-control md-3" placeholder="Your email" required>
+        <input type="submit" id="submit" value="Submit" class="btn btn-sm btn-primary">
+      </form>
     </div>
 
-    <form id="form">
-      <div class="input-field-wrapper">
-        <label for="email" class="form-label">Email</label>
-        <input typ="email" id="email" class="form-control md-3" placeholder="Your email" required>
-      </div>
-
-      <input type="submit" id="submit" value="Submit">
-    </form>
-
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
