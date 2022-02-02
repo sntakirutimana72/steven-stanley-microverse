@@ -1,0 +1,108 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 15%;
+    background-color: lightgray;
+}
+
+#main {
+    margin: 0 15%;
+}
+
+#header {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+#header > * {
+    margin-right: 2px;
+    float: left;
+}
+
+#header-img {
+    width: 40px;
+    height: auto;
+    padding: 6px 0;
+}
+
+#header > span {
+    font-size: 28px;
+}
+
+#video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.card {
+    background: none !important;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+}
+
+#nav-bar {
+    padding: 1px 0;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-bar li {
+    width: fit-content;
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+form {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+}
+
+label {
+    margin: 5px 0;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+/*        media querries  */
+
+@media screen and (max-width: 1200px) {
+    #nav-bar {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body, #main {
+        margin: auto 3%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body, main {
+        margin: auto 10px;
+    }
+
+    #nav-bar li {
+        display: block;
+        width: 100%;
+    }
+}
